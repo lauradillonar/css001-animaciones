@@ -12,14 +12,7 @@
   background: cornflowerblue;
   border-radius: 50%;
 
-  /* animation: ;*/
-  animation-name: mover;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  /* animation-fill-mode: both; */
-  /* animation-delay: 2s; */
-  animation-timing-function: ease-in-out;
+  animation: mover 1s 2s alternate infinite;
 }
 
 .circle:hover {
